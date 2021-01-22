@@ -9,15 +9,14 @@ const booksRouter = express.Router()
 //use the express.json() middleware to parse the body of request
 const bodyParser = express.json()
 
-const serializeBook = book => ({
+const serializeBook = (book) => ({
   id: book.id,
   title: xss(book.title),
-  author_last: book.author_last,
-  author_first: book.author_first,
+  authorLast: xss(book.author_last),
+  authorFirst: xss(book.author_first),
   description: xss(book.description),
   category_id: book.category_id,
   subcategory_id: book.subcategory_id,
-
 })
 
 booksRouter
@@ -51,12 +50,22 @@ booksRouter
       newBook
     )
       .then(book => {
-        logger.info(`Bookmark with id ${book.id} created.`)
-        //construct a response 201 (created) w/ the url + id and the json of the newBookmark
+        logger.info(`Book with id ${book.id} created.`)
+        //construct a response 201 (created) w/ the url + id and the json of the newBook
         res
           .status(201)
           .location(path.posix.join(req.originalUrl) + `/${book.id}`)
-          .json(serializeBookmark(book))
+          .json(serializeBook(book))
+      })
+      .catch(next)
+  })
+
+booksRouter
+  .route('/api/bookshelf')
+  .get((req, res, next) => {
+    BooksService.getBookshelf(req.app.get('db'))
+      .then(book => {
+        res.json(book.map(serializeBook))
       })
       .catch(next)
   })
@@ -114,7 +123,7 @@ booksRouter
   })
 
   .delete((req, res, next) => {
-    const { bookmark_id } = req.params
+    const { book_id } = req.params
     BooksService.deleteBook(
       req.app.get('db'),
       book_id
