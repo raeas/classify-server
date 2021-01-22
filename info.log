@@ -1,0 +1,5 @@
+{"message":"title is required","level":"error"}
+{"message":"author_last is required","level":"error"}
+{"message":"categoryId is required","level":"error"}
+{"message":"author_last is required","level":"error"}
+{"message":"Book with id 6 created.","level":"info"}

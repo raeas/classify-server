@@ -12,8 +12,8 @@ const bodyParser = express.json()
 const serializeBook = (book) => ({
   id: book.id,
   title: xss(book.title),
-  authorLast: xss(book.author_last),
-  authorFirst: xss(book.author_first),
+  author_last: xss(book.author_last),
+  author_first: xss(book.author_first),
   description: xss(book.description),
   category_id: book.category_id,
   subcategory_id: book.subcategory_id,
@@ -38,7 +38,7 @@ booksRouter
       }
     }
 
-    //Take the title, url, description, rating out of the req.body
+    //Take the title, author_last, author_first, description, category_id, subcategory_id out of the req.body
     const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
 
     //const a newBook from the title, author_last, author_first, description, category_id, subcategory_id 
