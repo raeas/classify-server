@@ -3,3 +3,5 @@
 {"message":"categoryId is required","level":"error"}
 {"message":"author_last is required","level":"error"}
 {"message":"Book with id 6 created.","level":"info"}
+{"message":"Book with id 7 created.","level":"info"}
+{"message":"Book with id 10 not found.","level":"error"}

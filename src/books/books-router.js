@@ -105,7 +105,7 @@ booksRouter
       })
     }
 
-    const error = getBookValidationError(bookToUpdate)
+    // const error = getBookValidationError(bookToUpdate)
 
     if (error) return res.status(400).send(error)
 

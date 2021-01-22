@@ -1,0 +1,6 @@
+insert into books (title, author_last, author_first, description, category_id, subcategory_id)
+values
+  ('Untamed', 'Doyle', 'Glennon', 'More than just a memoir, this book takes the reader on a journey of self-discovery. It seeks to liberate women from the societal expectations that bind them, to honor beauty and rage equally — it speaks to the soul.', 4, 30),
+  ('The Splended and the Vile', 'Larson', 'Erik', 'It is a story of political brinkmanship, but it’s also an intimate domestic drama, set against the backdrop of Churchill’s prime-ministerial country home, Chequers.', 10, 94),
+  ('Happiness Becomes You', 'Turner', 'Tina', 'Tina is a global icon of inspiration. And now, with Happiness Becomes You: A Guide to Changing Your Life for Good, Tina shows how anyone can overcome life’s obstacles.', 2, 15),
+  ('No Time Like the Future', 'Fox', 'Michael J.', 'Michael shares personal stories and observations about illness and health, aging, the strength of family and friends, and how our perceptions about time affect the way we approach mortality.', 8, 79);
