@@ -6,6 +6,7 @@ const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const booksRouter = require('./books/books-router')
 const bookshelfRouter = require('./bookshelf/bookshelf-router')
+const categoriesRouter = require('./categories/categories-router')
 
 const app = express()
 
@@ -18,8 +19,8 @@ app.use(helmet())
 app.use(cors())
 
 app.use(booksRouter)
-
 app.use(bookshelfRouter)
+app.use(categoriesRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello, world!')
