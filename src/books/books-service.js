@@ -2,12 +2,14 @@ const BooksService = {
   getAllBooks(knex) {
     return knex.select('*').from('books')
   },
-  getBookshelf(knex) {
-    return knex.select('books.title', 'books.author_last', 'books.author_first', 'books.description', 'categories.name', 'subcategories.name' )
-    .from ('books')
-    .join('categories','books.category_id', '=', 'categories.id')
-    .join('subcategories', 'books.subcategory_id', '=', 'subcategories.id') 
-  },
+
+  // getBookshelf(knex) {
+  //   return knex.select('books.id', 'books.title', 'books.author_last', 'books.author_first', 'books.description', 'categories.name as category', 'subcategories.name as subcategory' )
+  //   .from ('books')
+  //   .join('categories','books.category_id', '=', 'categories.id')
+  //   .join('subcategories', 'books.subcategory_id', '=', 'subcategories.id') 
+  // },
+
   getById(knex, id) {
     return knex.from('books').select('*').where('id', id).first()
   },

@@ -3,13 +3,12 @@ const logger = require('../logger')
 const xss = require('xss')
 const path = require('path')
 const BooksService = require('./books-service')
-// const { getBookValidationError } = require('./book-validator')
-
+const { getBooksValidationError } = require('./books-validator')
 const booksRouter = express.Router()
 //use the express.json() middleware to parse the body of request
 const bodyParser = express.json()
 
-const serializeBook = (book) => ({
+const serializeBook = book => ({
   id: book.id,
   title: xss(book.title),
   author_last: xss(book.author_last),
@@ -29,11 +28,11 @@ booksRouter
       .catch(next)
   })
   .post(bodyParser, (req, res, next) => {
-    for (const field of ['title', 'author_last', 'author_first', 'description', 'category_id', 'subcategory_id']) {
+    for (const field of ['title', 'category_id', 'subcategory_id']) {
       if (!req.body[field]) {
         logger.error(`${field} is required`)
         return res.status(400).send({
-          error: { message: `'${field}' is required` }
+          error: { message: `Missing '${field}' in request body` }
         })
       }
     }
@@ -61,16 +60,6 @@ booksRouter
   })
 
 booksRouter
-  .route('/api/bookshelf')
-  .get((req, res, next) => {
-    BooksService.getBookshelf(req.app.get('db'))
-      .then(book => {
-        res.json(book.map(serializeBook))
-      })
-      .catch(next)
-  })
-
-booksRouter
   .route('/api/books/:book_id')
   .all((req, res, next) => {
     const { book_id } = req.params
@@ -91,6 +80,7 @@ booksRouter
     res.json(serializeBook(res.book))
   })
 
+  //How to tell which fields are "required???"
   .patch(bodyParser, (req, res, next) => {
     const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
     const bookToUpdate = { title, author_last, author_first, description, category_id, subcategory_id }
@@ -100,12 +90,12 @@ booksRouter
       logger.error(`Invalid update without required fields`)
       return res.status(400).json({
         error: { 
-          message: `Request body must contain either 'title', 'author_last', 'author_first', 'description', 'category_id', 'subcategory_id' `
+          message: `Request body must contain either 'title', 'category_id', 'subcategory_id'`
         }
       })
     }
 
-    // const error = getBookValidationError(bookToUpdate)
+    const error = getBooksValidationError(bookToUpdate)
 
     if (error) return res.status(400).send(error)
 
