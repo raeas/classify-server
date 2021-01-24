@@ -156,3 +156,101 @@
 {"message":"Book with id 2 deleted.","level":"info"}
 {"message":"Book with id 123456 not found.","level":"error"}
 {"message":"Invalid update without required fields","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 5 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 6 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 7 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 8 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 9 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 10 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 11 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 12 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 13 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 14 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}

@@ -54,7 +54,7 @@ describe('Books Endpoints', function() {
 
 //2 DESCRIBE - books by id    
 describe(` 2 GET /api/books/:book_id`, () => {
-  //2A CONTEXT - to folders by id - given no folder id in db
+  //2A CONTEXT - to books by id - given no book id in db
       context(`2A Given no books`, () => {
         it(`responds with 404`, () => {
           const book_id = 123456
@@ -63,11 +63,11 @@ describe(` 2 GET /api/books/:book_id`, () => {
             .expect(404, { error: { message: `Book Not Found` } })
          })
       })
-//2B CONTEXT - to folders by id - given there are folders by id in db
-  context('2B Given there are folders in the database', () => {
+//2B CONTEXT - to books by id - given there are books by id in db
+  context('2B Given there are books in the database', () => {
     const testBooks = makeBooksArray()
 
-  beforeEach('insert folders', () => {
+  beforeEach('insert books', () => {
     return db
       .into('books')
       .insert(testBooks)
@@ -84,7 +84,7 @@ describe(` 2 GET /api/books/:book_id`, () => {
       })
     })
   })
-//3 DESCRIBE - POST folders by id  
+//3 DESCRIBE - POST books by id  
   describe(` 3 POST /api/books`, () => {
 
     it(`creates a book, responding with 201 and the new book`,  function() {
@@ -131,7 +131,7 @@ describe(` 2 GET /api/books/:book_id`, () => {
       })
     })
   })
-//4 DESCRIBE - DELETE folders by id  
+//4 DESCRIBE - DELETE books by id  
   describe(`4 DELETE /api/books/:book_id`, () => {
     //4A CONTEXT - given there are no books by id to delete
     context(`4A Given no books`, () => {
