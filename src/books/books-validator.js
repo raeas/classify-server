@@ -5,7 +5,7 @@ const NO_ERRORS = null
 function getBooksValidationError({ title }) {
   if (!title)
   {
-    logger.error(`Invalid rating '${rating}' supplied`)
+    logger.error(`Invalid title '${title}' supplied`)
     return {
       error: {
         message: `'title' is required`

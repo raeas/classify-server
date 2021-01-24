@@ -254,3 +254,13 @@
 {"message":"Book with id 123456 not found.","level":"error"}
 {"message":"Invalid update without required fields","level":"error"}
 {"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 15 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
