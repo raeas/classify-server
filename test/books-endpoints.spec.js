@@ -19,7 +19,7 @@ describe('Books Endpoints', function() {
 
   before('clean the table', () => db('books'))
 
-  afterEach('cleanup', () => db.raw('TRUNCATE books'))
+  afterEach('cleanup', () => db.raw('TRUNCATE books RESTART IDENTITY CASCADE'))
 
 //1 DESCRIBE - get books endpoint
   describe(' 1 GET /api/books', () => {
@@ -34,7 +34,6 @@ describe('Books Endpoints', function() {
 //1B - CONTEXT to books endpoint - given there are books in the db
     context('1B Given there are books in the database', () => {
       const testBooks = makeBooksArray()
-
       beforeEach('insert books', () => {
         return db
           .into('books')
@@ -67,14 +66,15 @@ describe(` 2 GET /api/books/:book_id`, () => {
   context('2B Given there are books in the database', () => {
     const testBooks = makeBooksArray()
 
-  beforeEach('insert books', () => {
-    return db
-      .into('books')
-      .insert(testBooks)
-      .then(() => {
-        return db
+    beforeEach('insert books', () => {
+      return db
+        .into('books')
+        .insert(testBooks)
+        .then(() => {
+          return db
+        })
       })
-    })
+      
     it('responds with 200 and the specified book', () => {
       const bookId = 2
       const expectedBook = testBooks[bookId - 1]
