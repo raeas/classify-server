@@ -28,8 +28,9 @@ booksRouter
       .catch(next)
   })
   .post(bodyParser, (req, res, next) => {
+    console.log('POST', req.body)
     for (const field of ['title', 'category_id', 'subcategory_id']) {
-      if (!req.body[field]) {
+      if (!(field in req.body)) {
         logger.error(`${field} is required`)
         return res.status(400).send({
           error: { message: `Missing '${field}' in request body` }
@@ -37,16 +38,16 @@ booksRouter
       }
     }
 
-    //Take the title, author_last, author_first, description, category_id, subcategory_id out of the req.body
-    const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
+    // //Take the title, author_last, author_first, description, category_id, subcategory_id out of the req.body
+    // const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
 
     //const a newBook from the title, author_last, author_first, description, category_id, subcategory_id 
-    const newBook = { title, author_last, author_first, description, category_id, subcategory_id }
+    // const newBook = { title, author_last, author_first, description, category_id, subcategory_id }
 
     //// #2 If the data is valid, process it:
     BooksService.insertBook(
       req.app.get('db'),
-      newBook
+      req.body
     )
       .then(book => {
         logger.info(`Book with id ${book.id} created.`)
@@ -82,10 +83,12 @@ booksRouter
 
   //How to tell which fields are "required???"
   .patch(bodyParser, (req, res, next) => {
+    console.log('req.body PATCH ', req.body)
     const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
     const bookToUpdate = { title, author_last, author_first, description, category_id, subcategory_id }
     const numberOfValues = Object.values(bookToUpdate).filter(Boolean).length
-    
+    console.log('bookToUpdate ',bookToUpdate)
+
     if (numberOfValues === 0) {
       logger.error(`Invalid update without required fields`)
       return res.status(400).json({
@@ -104,12 +107,11 @@ booksRouter
       req.params.book_id,
       bookToUpdate
     )
-      .then(numRowsAffected => {
+      .then(book => {
+        console.log('book ', book)
         res.status(204).end()
       })
-
       .catch(next)
-
   })
 
   .delete((req, res, next) => {

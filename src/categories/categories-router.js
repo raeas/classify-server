@@ -20,7 +20,8 @@ categoriesRouter
   .route('/api/categories/:category_id')
   .all((req, res, next) => {
     const { category_id } = req.params
-    CategoriesService.getById(req.app.get('db'), category_id)
+    //update tests for getCategoryById
+    CategoriesService.getCategoryById(req.app.get('db'), category_id)
       .then(category => {
         if (!category) {
           logger.error(`Category with id ${category_id} not found.`)
@@ -36,6 +37,17 @@ categoriesRouter
 .get((req, res) => {
   res.json(res.category)
 })
+
+//needs tests added
+categoriesRouter
+  .route('/api/subcategories')
+  .get((req, res, next) => {
+    CategoriesService.getAllSubcategories(req.app.get('db'))
+      .then(subcategory => {
+        res.json(subcategory)
+      })
+      .catch(next)
+  })
 
 categoriesRouter
   .route('/api/catsandsubcats')

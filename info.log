@@ -381,3 +381,459 @@
 {"message":"Book with id 123456 not found.","level":"error"}
 {"message":"Invalid update without required fields","level":"error"}
 {"message":"Category with id 123456 not found.","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 1 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 123456 not found.","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Category with id 123456 not found.","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 5 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 6 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 7 created.","level":"info"}
+{"message":"Book with id 8 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 9 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 10 created.","level":"info"}
+{"message":"Book with id 11 created.","level":"info"}
+{"message":"Book with id 12 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 13 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 14 created.","level":"info"}
+{"message":"Book with id 15 created.","level":"info"}
+{"message":"Book with id 16 created.","level":"info"}
+{"message":"Book with id 17 created.","level":"info"}
+{"message":"Book with id 18 created.","level":"info"}
+{"message":"Book with id 19 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 20 created.","level":"info"}
+{"message":"Book with id 21 created.","level":"info"}
+{"message":"Book with id 22 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 23 created.","level":"info"}
+{"message":"Book with id 24 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 25 created.","level":"info"}
+{"message":"Book with id 26 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 27 created.","level":"info"}
+{"message":"Book with id 28 created.","level":"info"}
+{"message":"Book with id 29 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 30 created.","level":"info"}
+{"message":"Book with id 31 created.","level":"info"}
+{"message":"Book with id 32 created.","level":"info"}
+{"message":"Book with id 33 created.","level":"info"}
+{"message":"Book with id 34 created.","level":"info"}
+{"message":"Book with id 35 created.","level":"info"}
+{"message":"Book with id 36 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 37 created.","level":"info"}
+{"message":"Book with id 38 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"Book with id 39 created.","level":"info"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 40 created.","level":"info"}
+{"message":"Book with id 41 created.","level":"info"}
+{"message":"Book with id 42 created.","level":"info"}
+{"message":"Book with id 43 created.","level":"info"}
+{"message":"Book with id 44 created.","level":"info"}
+{"message":"Book with id 45 created.","level":"info"}
+{"message":"Book with id 46 created.","level":"info"}
+{"message":"Book with id 47 created.","level":"info"}
+{"message":"Book with id 48 created.","level":"info"}
+{"message":"Book with id 49 created.","level":"info"}
+{"message":"Book with id 50 created.","level":"info"}
+{"message":"Book with id 51 created.","level":"info"}
+{"message":"Book with id 52 created.","level":"info"}
+{"message":"Book with id 53 created.","level":"info"}
+{"message":"Book with id 54 created.","level":"info"}
+{"message":"Book with id 55 created.","level":"info"}
+{"message":"Book with id 56 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Book with id 57 created.","level":"info"}
+{"message":"Book with id 58 created.","level":"info"}
+{"message":"Book with id 59 created.","level":"info"}
+{"message":"Book with id 60 created.","level":"info"}
+{"message":"Book with id 61 created.","level":"info"}
+{"message":"Book with id 62 created.","level":"info"}
+{"message":"Book with id 63 created.","level":"info"}
+{"message":"Book with id 64 created.","level":"info"}
+{"message":"Book with id 65 created.","level":"info"}
+{"message":"Book with id 66 created.","level":"info"}
+{"message":"Book with id 67 created.","level":"info"}
+{"message":"Book with id 68 created.","level":"info"}
+{"message":"Book with id 69 created.","level":"info"}
+{"message":"Book with id 70 created.","level":"info"}
+{"message":"Book with id 71 created.","level":"info"}
+{"message":"Book with id 72 created.","level":"info"}
+{"message":"Book with id 73 created.","level":"info"}
+{"message":"Book with id 74 created.","level":"info"}
+{"message":"Book with id 75 created.","level":"info"}
+{"message":"Book with id 76 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"Book with id 77 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 78 created.","level":"info"}
+{"message":"Book with id 79 created.","level":"info"}
+{"message":"Book with id 80 created.","level":"info"}
+{"message":"Book with id 81 created.","level":"info"}
+{"message":"title is required","level":"error"}
+{"message":"title is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 82 created.","level":"info"}
+{"message":"Book with id 83 created.","level":"info"}
+{"message":"Book with id 84 created.","level":"info"}
+{"message":"Book with id 85 created.","level":"info"}
+{"message":"Book with id 86 created.","level":"info"}
+{"message":"category_id is required","level":"error"}
+{"message":"Book with id 87 created.","level":"info"}
+{"message":"Book with id 88 created.","level":"info"}
+{"message":"Book with id 89 created.","level":"info"}
+{"message":"Book with id 90 created.","level":"info"}
+{"message":"Book with id 91 created.","level":"info"}
+{"message":"Book with id 92 created.","level":"info"}
+{"message":"Book with id 93 created.","level":"info"}
+{"message":"Book with id 99 created.","level":"info"}
+{"message":"Book with id 100 created.","level":"info"}
+{"message":"Book with id 101 created.","level":"info"}
+{"message":"Book with id 103 created.","level":"info"}
+{"message":"Book with id 104 created.","level":"info"}
+{"message":"Book with id 105 created.","level":"info"}
+{"message":"Book with id 107 created.","level":"info"}
+{"message":"Book with id 108 created.","level":"info"}
+{"message":"Book with id 109 created.","level":"info"}
+{"message":"Book with id 9 deleted.","level":"info"}
+{"message":"Book with id 8 deleted.","level":"info"}
+{"message":"Book with id 12 deleted.","level":"info"}
+{"message":"Book with id 11 deleted.","level":"info"}
+{"message":"Book with id 109 deleted.","level":"info"}
+{"message":"Book with id 108 deleted.","level":"info"}
+{"message":"Book with id 107 deleted.","level":"info"}
+{"message":"Book with id 105 deleted.","level":"info"}
+{"message":"Book with id 104 deleted.","level":"info"}
+{"message":"Book with id 104 not found.","level":"error"}
+{"message":"Book with id 103 deleted.","level":"info"}
+{"message":"Book with id 101 deleted.","level":"info"}
+{"message":"Book with id 100 deleted.","level":"info"}
+{"message":"Book with id 99 deleted.","level":"info"}
+{"message":"Book with id 93 deleted.","level":"info"}
+{"message":"Book with id 92 deleted.","level":"info"}
+{"message":"Book with id 91 deleted.","level":"info"}
+{"message":"Book with id 90 deleted.","level":"info"}
+{"message":"Book with id 89 deleted.","level":"info"}
+{"message":"Book with id 88 deleted.","level":"info"}
+{"message":"Book with id 87 deleted.","level":"info"}
+{"message":"Book with id 86 deleted.","level":"info"}
+{"message":"Book with id 85 deleted.","level":"info"}
+{"message":"Book with id 84 deleted.","level":"info"}
+{"message":"Book with id 83 deleted.","level":"info"}
+{"message":"Book with id 82 deleted.","level":"info"}
+{"message":"Book with id 81 deleted.","level":"info"}
+{"message":"Book with id 80 deleted.","level":"info"}
+{"message":"Book with id 79 deleted.","level":"info"}
+{"message":"Book with id 78 deleted.","level":"info"}
+{"message":"Book with id 77 deleted.","level":"info"}
+{"message":"Book with id 76 deleted.","level":"info"}
+{"message":"Book with id 75 deleted.","level":"info"}
+{"message":"Book with id 74 deleted.","level":"info"}
+{"message":"Book with id 73 deleted.","level":"info"}
+{"message":"Book with id 72 deleted.","level":"info"}
+{"message":"Book with id 71 deleted.","level":"info"}
+{"message":"Book with id 70 deleted.","level":"info"}
+{"message":"Book with id 69 deleted.","level":"info"}
+{"message":"Book with id 68 deleted.","level":"info"}
+{"message":"Book with id 67 deleted.","level":"info"}
+{"message":"Book with id 66 deleted.","level":"info"}
+{"message":"Book with id 65 deleted.","level":"info"}
+{"message":"Book with id 64 deleted.","level":"info"}
+{"message":"Book with id 63 deleted.","level":"info"}
+{"message":"Book with id 62 deleted.","level":"info"}
+{"message":"Book with id 61 deleted.","level":"info"}
+{"message":"Book with id 60 deleted.","level":"info"}
+{"message":"Book with id 59 deleted.","level":"info"}
+{"message":"Book with id 58 deleted.","level":"info"}
+{"message":"Book with id 57 deleted.","level":"info"}
+{"message":"Book with id 56 deleted.","level":"info"}
+{"message":"Book with id 55 deleted.","level":"info"}
+{"message":"Book with id 54 deleted.","level":"info"}
+{"message":"Book with id 53 deleted.","level":"info"}
+{"message":"Book with id 52 deleted.","level":"info"}
+{"message":"Book with id 51 deleted.","level":"info"}
+{"message":"Book with id 50 deleted.","level":"info"}
+{"message":"Book with id 49 deleted.","level":"info"}
+{"message":"Book with id 48 deleted.","level":"info"}
+{"message":"Book with id 47 deleted.","level":"info"}
+{"message":"Book with id 46 deleted.","level":"info"}
+{"message":"Book with id 45 deleted.","level":"info"}
+{"message":"Book with id 44 deleted.","level":"info"}
+{"message":"Book with id 43 deleted.","level":"info"}
+{"message":"Book with id 42 deleted.","level":"info"}
+{"message":"Book with id 41 deleted.","level":"info"}
+{"message":"Book with id 40 deleted.","level":"info"}
+{"message":"Book with id 39 deleted.","level":"info"}
+{"message":"Book with id 38 deleted.","level":"info"}
+{"message":"Book with id 37 deleted.","level":"info"}
+{"message":"Book with id 36 deleted.","level":"info"}
+{"message":"Book with id 35 deleted.","level":"info"}
+{"message":"Book with id 34 deleted.","level":"info"}
+{"message":"Book with id 33 deleted.","level":"info"}
+{"message":"Book with id 32 deleted.","level":"info"}
+{"message":"Book with id 31 deleted.","level":"info"}
+{"message":"Book with id 30 deleted.","level":"info"}
+{"message":"Book with id 29 deleted.","level":"info"}
+{"message":"Book with id 28 deleted.","level":"info"}
+{"message":"Book with id 27 deleted.","level":"info"}
+{"message":"Book with id 26 deleted.","level":"info"}
+{"message":"Book with id 25 deleted.","level":"info"}
+{"message":"Book with id 24 deleted.","level":"info"}
+{"message":"Book with id 23 deleted.","level":"info"}
+{"message":"Book with id 22 deleted.","level":"info"}
+{"message":"Book with id 21 deleted.","level":"info"}
+{"message":"Book with id 20 deleted.","level":"info"}
+{"message":"Book with id 19 deleted.","level":"info"}
+{"message":"Book with id 18 deleted.","level":"info"}
+{"message":"Book with id 17 deleted.","level":"info"}
+{"message":"Book with id 16 deleted.","level":"info"}
+{"message":"Book with id 15 deleted.","level":"info"}
+{"message":"Book with id 14 deleted.","level":"info"}
+{"message":"Book with id 13 deleted.","level":"info"}
+{"message":"Book with id 10 deleted.","level":"info"}
+{"message":"Book with id 7 deleted.","level":"info"}
+{"message":"Book with id 6 deleted.","level":"info"}
+{"message":"Book with id 5 deleted.","level":"info"}
+{"message":"Book with id 4 deleted.","level":"info"}
+{"message":"Book with id 110 created.","level":"info"}
+{"message":"Book with id 111 created.","level":"info"}
+{"message":"Book with id 112 created.","level":"info"}
+{"message":"Book with id 113 created.","level":"info"}
+{"message":"Book with id 114 created.","level":"info"}
+{"message":"Book with id 115 created.","level":"info"}
+{"message":"Book with id 116 created.","level":"info"}
+{"message":"Book with id 117 created.","level":"info"}
+{"message":"Book with id 118 created.","level":"info"}
+{"message":"Book with id 119 created.","level":"info"}
+{"message":"Book with id 120 created.","level":"info"}
+{"message":"Book with id 121 created.","level":"info"}
+{"message":"Book with id 122 created.","level":"info"}
+{"message":"Book with id 121 deleted.","level":"info"}
+{"message":"Book with id 121 not found.","level":"error"}
+{"message":"Book with id 121 not found.","level":"error"}
+{"message":"Book with id 2 deleted.","level":"info"}
+{"message":"Book with id 120 deleted.","level":"info"}
+{"message":"Book with id 110 deleted.","level":"info"}
+{"message":"Book with id 112 deleted.","level":"info"}
+{"message":"Book with id 112 not found.","level":"error"}
+{"message":"Book with id 113 deleted.","level":"info"}
+{"message":"Book with id 123 created.","level":"info"}
+{"message":"Book with id 124 created.","level":"info"}
+{"message":"Book with id 125 created.","level":"info"}
+{"message":"Book with id 126 created.","level":"info"}
+{"message":"Book with id 127 created.","level":"info"}
+{"message":"Book with id 128 created.","level":"info"}
+{"message":"Book with id 129 created.","level":"info"}
+{"message":"Book with id 130 created.","level":"info"}
+{"message":"Book with id 131 created.","level":"info"}
+{"message":"Book with id 131 deleted.","level":"info"}
+{"message":"Book with id 130 deleted.","level":"info"}
+{"message":"Book with id 123 deleted.","level":"info"}
+{"message":"Book with id 124 deleted.","level":"info"}
+{"message":"Book with id 138 created.","level":"info"}
+{"message":"Book with id 140 created.","level":"info"}
+{"message":"Book with id 141 created.","level":"info"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Book with id 138 deleted.","level":"info"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 141 deleted.","level":"info"}
+{"message":"Book with id 125 deleted.","level":"info"}
+{"message":"subcategory_id is required","level":"error"}
+{"message":"Book with id 142 created.","level":"info"}
+{"message":"Book with id 143 created.","level":"info"}
+{"message":"Book with id 144 created.","level":"info"}
+{"message":"Book with id 145 created.","level":"info"}
+{"message":"Book with id 145 deleted.","level":"info"}
+{"message":"Book with id 142 deleted.","level":"info"}
+{"message":"Book with id 114 deleted.","level":"info"}
+{"message":"Book with id 146 created.","level":"info"}
+{"message":"Book with id 147 created.","level":"info"}
+{"message":"Book with id 148 created.","level":"info"}
+{"message":"Book with id 149 created.","level":"info"}
+{"message":"Book with id 150 created.","level":"info"}
+{"message":"Book with id 151 created.","level":"info"}
+{"message":"Book with id 152 created.","level":"info"}
+{"message":"Book with id 153 created.","level":"info"}
+{"message":"Book with id 154 created.","level":"info"}
+{"message":"Book with id 155 created.","level":"info"}
+{"message":"Book with id 156 created.","level":"info"}
+{"message":"Book with id 157 created.","level":"info"}
+{"message":"Book with id 158 created.","level":"info"}
+{"message":"Book with id 159 created.","level":"info"}
+{"message":"Book with id 160 created.","level":"info"}
+{"message":"Book with id 161 created.","level":"info"}
+{"message":"Book with id 162 created.","level":"info"}
+{"message":"Book with id 163 created.","level":"info"}
+{"message":"Book with id 164 created.","level":"info"}
+{"message":"Book with id 165 created.","level":"info"}
+{"message":"Book with id 166 created.","level":"info"}
+{"message":"Book with id 167 created.","level":"info"}
+{"message":"Book with id 163 deleted.","level":"info"}
+{"message":"Book with id 160 deleted.","level":"info"}
+{"message":"Book with id 156 deleted.","level":"info"}
+{"message":"Book with id 168 created.","level":"info"}
+{"message":"Book with id 169 created.","level":"info"}
+{"message":"Book with id 170 created.","level":"info"}
+{"message":"Book with id 171 created.","level":"info"}
+{"message":"Book with id 172 created.","level":"info"}
+{"message":"Book with id 173 created.","level":"info"}
+{"message":"Book with id 174 created.","level":"info"}
+{"message":"Book with id 175 created.","level":"info"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid title '' supplied","level":"error"}
+{"message":"Book with id 176 created.","level":"info"}
+{"message":"Book with id 164 deleted.","level":"info"}
+{"message":"Book with id 169 deleted.","level":"info"}
+{"message":"Book with id 165 deleted.","level":"info"}
+{"message":"Book with id 140 deleted.","level":"info"}
+{"message":"Book with id 149 deleted.","level":"info"}
+{"message":"Book with id 148 deleted.","level":"info"}
+{"message":"Book with id 157 deleted.","level":"info"}
+{"message":"Book with id 144 deleted.","level":"info"}
+{"message":"Book with id 152 deleted.","level":"info"}
+{"message":"Book with id 154 deleted.","level":"info"}
+{"message":"Book with id 150 deleted.","level":"info"}
+{"message":"Book with id 122 deleted.","level":"info"}
+{"message":"Book with id 177 created.","level":"info"}
+{"message":"Book with id 178 created.","level":"info"}
+{"message":"Book with id 117 deleted.","level":"info"}
+{"message":"Book with id 151 deleted.","level":"info"}
+{"message":"Book with id 158 deleted.","level":"info"}
+{"message":"Book with id 111 deleted.","level":"info"}
+{"message":"Book with id 170 deleted.","level":"info"}
+{"message":"Book with id 116 deleted.","level":"info"}
+{"message":"Book with id 171 deleted.","level":"info"}
+{"message":"Book with id 179 created.","level":"info"}
+{"message":"Book with id 180 created.","level":"info"}
+{"message":"Book with id 181 created.","level":"info"}
+{"message":"Book with id 182 created.","level":"info"}
+{"message":"Book with id 183 created.","level":"info"}
+{"message":"Book with id 184 created.","level":"info"}
+{"message":"Book with id 185 created.","level":"info"}
+{"message":"Book with id 186 created.","level":"info"}
+{"message":"Book with id 187 created.","level":"info"}
+{"message":"Book with id 168 deleted.","level":"info"}
+{"message":"Book with id 168 not found.","level":"error"}
+{"message":"Book with id 146 deleted.","level":"info"}
+{"message":"Book with id 188 created.","level":"info"}
+{"message":"Book with id 189 created.","level":"info"}
+{"message":"Book with id 190 created.","level":"info"}
+{"message":"Book with id 167 deleted.","level":"info"}
+{"message":"Book with id 191 created.","level":"info"}
+{"message":"Book with id 192 created.","level":"info"}
+{"message":"Book with id 193 created.","level":"info"}
+{"message":"Book with id 194 created.","level":"info"}
+{"message":"Book with id 195 created.","level":"info"}
+{"message":"Book with id 196 created.","level":"info"}
+{"message":"Book with id 197 created.","level":"info"}
+{"message":"Book with id 197 deleted.","level":"info"}
+{"message":"Book with id 198 created.","level":"info"}
+{"message":"Book with id 199 created.","level":"info"}
+{"message":"Book with id 200 created.","level":"info"}
+{"message":"Book with id 201 created.","level":"info"}
+{"message":"Book with id 202 created.","level":"info"}
+{"message":"Book with id 203 created.","level":"info"}
+{"message":"Book with id 204 created.","level":"info"}
+{"message":"Book with id 205 created.","level":"info"}
+{"message":"Book with id 206 created.","level":"info"}
+{"message":"Book with id 207 created.","level":"info"}
+{"message":"Book with id 208 created.","level":"info"}
+{"message":"Book with id 209 created.","level":"info"}
+{"message":"Book with id 210 created.","level":"info"}
+{"message":"Book with id 211 created.","level":"info"}
+{"message":"Book with id 212 created.","level":"info"}
+{"message":"Book with id 213 created.","level":"info"}
+{"message":"Book with id 214 created.","level":"info"}
+{"message":"Book with id 215 created.","level":"info"}
+{"message":"Book with id 216 created.","level":"info"}
+{"message":"Book with id 217 created.","level":"info"}
+{"message":"Book with id 218 created.","level":"info"}
+{"message":"Book with id 219 created.","level":"info"}
+{"message":"Book with id 220 created.","level":"info"}
+{"message":"Book with id 221 created.","level":"info"}
+{"message":"Book with id 222 created.","level":"info"}
+{"message":"Book with id 223 created.","level":"info"}
+{"message":"Book with id 224 created.","level":"info"}
+{"message":"Book with id 225 created.","level":"info"}
+{"message":"Book with id 226 created.","level":"info"}
+{"message":"Book with id 227 created.","level":"info"}
+{"message":"Book with id 228 created.","level":"info"}
+{"message":"Book with id 229 created.","level":"info"}
+{"message":"Book with id 230 created.","level":"info"}
+{"message":"Book with id 231 created.","level":"info"}
+{"message":"Book with id 232 created.","level":"info"}
+{"message":"Book with id 233 created.","level":"info"}
+{"message":"Book with id 234 created.","level":"info"}
+{"message":"Book with id 235 created.","level":"info"}
+{"message":"Book with id 236 created.","level":"info"}
+{"message":"Book with id 237 created.","level":"info"}
+{"message":"Book with id 238 created.","level":"info"}
+{"message":"Book with id 239 created.","level":"info"}
+{"message":"Book with id 240 created.","level":"info"}
+{"message":"Book with id 172 deleted.","level":"info"}
