@@ -7,6 +7,7 @@ const { NODE_ENV } = require('./config')
 const booksRouter = require('./books/books-router')
 const bookshelfRouter = require('./bookshelf/bookshelf-router')
 const categoriesRouter = require('./categories/categories-router')
+const {API_BASE_URL} = require('./config');
 
 const app = express()
 
