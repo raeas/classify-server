@@ -8,6 +8,7 @@ const booksRouter = require('./books/books-router')
 const bookshelfRouter = require('./bookshelf/bookshelf-router')
 const categoriesRouter = require('./categories/categories-router')
 const {API_BASE_URL} = require('./config');
+const {CLIENT_ORIGIN} = require('./config');
 
 const app = express()
 
@@ -17,7 +18,10 @@ const morganOption = (NODE_ENV === 'production')
 
 app.use(morgan(morganOption))
 app.use(helmet())
-app.use(cors())
+app.use(cors({
+  origin: CLIENT_ORIGIN
+})
+)
 
 app.use(booksRouter)
 app.use(bookshelfRouter)
