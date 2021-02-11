@@ -20,7 +20,6 @@ const BooksService = {
       .delete()
   },
   updateBook(knex, id, newBookFields) {
-    console.log(id, newBookFields)
     return knex('books')
       .where({ id })
       .update(newBookFields)

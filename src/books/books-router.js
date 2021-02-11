@@ -28,7 +28,6 @@ booksRouter
       .catch(next)
   })
   .post(bodyParser, (req, res, next) => {
-    console.log('POST', req.body)
     for (const field of ['title', 'category_id', 'subcategory_id']) {
       if (!(field in req.body)) {
         logger.error(`${field} is required`)
@@ -83,11 +82,9 @@ booksRouter
 
   //How to tell which fields are "required???"
   .patch(bodyParser, (req, res, next) => {
-    console.log('req.body PATCH ', req.body)
     const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
     const bookToUpdate = { title, author_last, author_first, description, category_id, subcategory_id }
     const numberOfValues = Object.values(bookToUpdate).filter(Boolean).length
-    console.log('bookToUpdate ',bookToUpdate)
 
     if (numberOfValues === 0) {
       logger.error(`Invalid update without required fields`)
@@ -108,7 +105,6 @@ booksRouter
       bookToUpdate
     )
       .then(book => {
-        console.log('book ', book)
         res.status(204).end()
       })
       .catch(next)

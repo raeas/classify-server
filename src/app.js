@@ -7,7 +7,6 @@ const { NODE_ENV } = require('./config')
 const booksRouter = require('./books/books-router')
 const bookshelfRouter = require('./bookshelf/bookshelf-router')
 const categoriesRouter = require('./categories/categories-router')
-
 const {CLIENT_ORIGIN} = require('./config');
 
 const app = express()
