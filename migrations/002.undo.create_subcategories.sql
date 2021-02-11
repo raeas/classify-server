@@ -1,1 +1,1 @@
-drop table if exists subcategories;
+DROP TABLE IF EXISTS subcategories;

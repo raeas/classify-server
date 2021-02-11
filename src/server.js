@@ -1,11 +1,11 @@
 //this is the controller file- it sets up the connection to the db
 const knex = require('knex')
 const app = require('./app')
-const { PORT, TEST_DATABASE_URL } = require('./config')
+const { PORT, TEST_DB_URL } = require('./config')
 
 const db = knex({
   client: 'pg',
-  connection: TEST_DATABASE_URL,
+  connection: TEST_DB_URL,
 })
 
 app.set('db', db)
