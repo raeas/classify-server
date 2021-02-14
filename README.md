@@ -108,7 +108,7 @@ Error Response: 404 Not Found
 
 
 `POST /api/books`  
-Description:   Add books to the bookshelf. Required fields are "title", "category_id", and "subcategory_id"  
+Description:   Add a book to the bookshelf. Required fields are "title", "category_id", and "subcategory_id"  
 Data Example:  
 ```
 {
@@ -137,7 +137,7 @@ Data Example:
     "subcategory_id": 97
 }
 ```
-Success Response: 200 OK 
+Success Response: 200 OK  
 Error Response: 400 Bad Request - "'${field}' is required'"   
 
 
