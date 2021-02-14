@@ -16,12 +16,12 @@ The Dewey Classify App let's users become the librarian of their own library. Us
 
 #### Categories
 `GET /api/categories`  
-**Description:**  
-**URL:**  
-**Method:**  
-**Data Example:**  
-**Success Response:**
-**Error Response:**  
+Description:  
+URL:    
+Method:    
+Data Example:  
+Success Response:
+Error Response:  
 #### Subcategories
 `GET /api/subcategories`  
 #### Bookshelf
