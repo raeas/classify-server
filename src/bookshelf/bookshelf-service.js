@@ -6,7 +6,6 @@ const BookshelfService = {
     .join('categories','books.category_id', '=', 'categories.id')
     .join('subcategories', 'books.subcategory_id', '=', 'subcategories.id') 
   },
-  
 }
 
 module.exports = BookshelfService

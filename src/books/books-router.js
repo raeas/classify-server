@@ -5,7 +5,6 @@ const path = require('path')
 const BooksService = require('./books-service')
 const { getBooksValidationError } = require('./books-validator')
 const booksRouter = express.Router()
-//use the express.json() middleware to parse the body of request
 const bodyParser = express.json()
 
 const serializeBook = book => ({
@@ -37,20 +36,12 @@ booksRouter
       }
     }
 
-    // //Take the title, author_last, author_first, description, category_id, subcategory_id out of the req.body
-    // const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
-
-    //const a newBook from the title, author_last, author_first, description, category_id, subcategory_id 
-    // const newBook = { title, author_last, author_first, description, category_id, subcategory_id }
-
-    //// #2 If the data is valid, process it:
     BooksService.insertBook(
       req.app.get('db'),
       req.body
     )
       .then(book => {
         logger.info(`Book with id ${book.id} created.`)
-        //construct a response 201 (created) w/ the url + id and the json of the newBook
         res
           .status(201)
           .location(path.posix.join(req.originalUrl) + `/${book.id}`)
@@ -80,7 +71,6 @@ booksRouter
     res.json(serializeBook(res.book))
   })
 
-  //How to tell which fields are "required???"
   .patch(bodyParser, (req, res, next) => {
     const { title, author_last, author_first, description, category_id, subcategory_id } = req.body
     const bookToUpdate = { title, author_last, author_first, description, category_id, subcategory_id }

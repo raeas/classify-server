@@ -1,4 +1,3 @@
-//this is the controller file- it sets up the connection to the db
 const knex = require('knex')
 const app = require('./app')
 const { PORT, DATABASE_URL } = require('./config')

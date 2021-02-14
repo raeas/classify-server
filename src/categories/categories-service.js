@@ -5,7 +5,6 @@ const CategoriesService = {
   getCategoryById(knex, id) {
     return knex.from('categories').select('*').where('id', id).first()
   },
-  //needs testing
   getAllSubcategories(knex) {
     return knex.select('*').from('subcategories')
   },
