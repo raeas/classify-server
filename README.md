@@ -14,9 +14,13 @@ The Dewey Classify App let's users become the librarian of their own library. Us
 
 ### Endpoints
 
+#### Categories
 `GET /api/categories`  
+#### Subcategories
 `GET /api/subcategories`  
+#### Bookshelf
 `GET /api/bookshelf`  
+#### Books
 `GET /api/books`  
 `POST /api/books`  
 `PATCH /api/books`  
