@@ -32,8 +32,8 @@ Data Example:
     "name": "2 Religions"
 }
 ```
-Success Response:  
-Error Response:  
+Success Response: 200 OK  
+Error Response: 404 Not Found  
 #### Subcategories
 `GET /api/subcategories`  
 Description:  Gets subcategories for the accordion display.   
@@ -60,8 +60,8 @@ Data Example:
     "category": 1
 }
 ```
-Success Response:  
-Error Response:  
+Success Response: 200 OK  
+Error Response: 404 Not Found
 #### Bookshelf  
 `GET /api/bookshelf`  
 Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.    
@@ -86,8 +86,8 @@ Data Example:
     "subcategory": "150 Psychology"
 }
 ```
-Success Response:  
-Error Response:  
+Success Response:  200 OK  
+Error Response: 404 Not Found  
 #### Books
 `GET /api/books`  
 Description:  Gets all books     
@@ -103,8 +103,8 @@ Data Example:
     "subcategory_id": 15
 }
 ```
-Success Response:  
-Error Response:  
+Success Response: 200 OK  
+Error Response: 404 Not Found
 
 
 `POST /api/books`  
@@ -125,7 +125,7 @@ Error Response: 400 Bad Request "'${field}' is required'"
 
 
 `PATCH /api/books/${bookId}`  
-Description:      
+Description: Updates a book. Required fields are "title", "category_id", and "subcategory_id"        
 Data Example:  
 ```
 {
@@ -138,15 +138,13 @@ Data Example:
 }
 ```
 Success Response: 200 OK 
-Error Response: 400 Bad Request "'${field}' is required'"   
+Error Response: 400 Bad Request - "'${field}' is required'"   
 
 
 `DELETE /api/books/${bookId}`  
-Description:      
-Data Example:  
-
-Success Response:  
-Error Response:  
+Description: Deletes a book     
+Success Response: 200 OK  
+Error Response: 404 Not Found - "Book Not Found"
 
 
 ### Tech Stack
