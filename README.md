@@ -16,33 +16,60 @@ The Dewey Classify App let's users become the librarian of their own library. Us
 
 #### Categories
 `GET /api/categories`  
-Description: Gets categories for the accordion display.  
-URL:    
-Method:    
+Description: Gets categories for the accordion display.    
 Data Example:  
+```
+    {
+        "id": 1,
+        "name": "0 Information"
+    },
+    {
+        "id": 2,
+        "name": "1 Philosophy & Psychology"
+    },
+    {
+        "id": 3,
+        "name": "2 Religions"
+    }
+```
 Success Response:  
 Error Response:  
 #### Subcategories
 `GET /api/subcategories`  
-Description:  Gets subcategories for the accordion display.  
-URL:    
-Method:    
+Description:  Gets subcategories for the accordion display.   
 Data Example:  
+```
+        "id": 1,
+        "name": "000 Computing & Information",
+        "category": 1
+    },
+    {
+        "id": 2,
+        "name": "010 Bibliographies",
+        "category": 1
+    },
+    {
+        "id": 3,
+        "name": "020 Library & Information Sciences",
+        "category": 1
+    },
+    {
+        "id": 4,
+        "name": "030 Dictionaries & Encylopedias",
+        "category": 1
+    }
+```
 Success Response:  
 Error Response:  
 #### Bookshelf  
 `GET /api/bookshelf`  
-Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.  
-URL:    
-Method:    
+Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.    
 Data Example:  
 Success Response:  
 Error Response:  
 #### Books
 `GET /api/books`  
-Description:  Get all books  
-URL:    
-Method:    
+Description:  Get all books     
 Data Example:  
 ```
     {
@@ -60,27 +87,21 @@ Error Response:
 
 
 `POST /api/books`  
-Description:  
-URL:    
-Method:    
+Description:    
 Data Example:  
 Success Response:  
 Error Response:    
 
 
 `PATCH /api/books`  
-Description:  
-URL:    
-Method:    
+Description:      
 Data Example:  
 Success Response:  
 Error Response:    
 
 
 `DELETE /api/books`  
-Description:  
-URL:    
-Method:    
+Description:      
 Data Example:  
 Success Response:  
 Error Response:  
