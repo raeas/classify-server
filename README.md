@@ -16,7 +16,7 @@ The Dewey Classify App let's users become the librarian of their own library. Us
 
 #### Categories
 `GET /api/categories`  
-Description: Gets categories for the accordion display.
+Description: Gets categories for the accordion display.  
 URL:    
 Method:    
 Data Example:  
@@ -24,7 +24,7 @@ Success Response:
 Error Response:  
 #### Subcategories
 `GET /api/subcategories`  
-Description:  Gets subcategories for the accordion display.
+Description:  Gets subcategories for the accordion display.  
 URL:    
 Method:    
 Data Example:  
@@ -32,7 +32,7 @@ Success Response:
 Error Response:  
 #### Bookshelf  
 `GET /api/bookshelf`  
-Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.
+Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.  
 URL:    
 Method:    
 Data Example:  
@@ -40,7 +40,7 @@ Success Response:
 Error Response:  
 #### Books
 `GET /api/books`  
-Description:  Get all books
+Description:  Get all books  
 URL:    
 Method:    
 Data Example:  
@@ -53,6 +53,17 @@ Description:
 URL:    
 Method:    
 Data Example:  
+```
+    {
+        "id": 3,
+        "title": "Happiness Becomes You",
+        "author_last": "Turner",
+        "author_first": "Tina",
+        "description": "Tina is a global icon of inspiration. And now, with Happiness Becomes You: A Guide to Changing Your Life for Good, Tina shows how anyone can overcome life's obstacles.",
+        "category_id": 2,
+        "subcategory_id": 15
+    }
+```
 Success Response:  
 Error Response:    
 
