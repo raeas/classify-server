@@ -977,3 +977,12 @@
 {"message":"Book with id 5 created.","level":"info"}
 {"message":"Book with id 6 created.","level":"info"}
 {"message":"Book with id 6 deleted.","level":"info"}
+{"message":"Book with id 7 created.","level":"info"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Invalid update without required fields","level":"error"}
+{"message":"Book with id 8 created.","level":"info"}
+{"message":"Book with id 9 created.","level":"info"}
+{"message":"Book with id 10 created.","level":"info"}
+{"message":"Book with id 10 deleted.","level":"info"}
+{"message":"Book with id 11 created.","level":"info"}
+{"message":"Book with id 11 deleted.","level":"info"}

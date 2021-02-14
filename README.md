@@ -1,28 +1,30 @@
-# Express Boilerplate!
+# Dewey Classify App Server
+This is the server for virtual bookshelf app where you can add and classify your books.
 
-This is a boilerplate project used for starting new projects!
+-----
+### Link to live app
+Live version of the client can be found here <a href = "https://classify-app.vercel.app/">https://classify-app.vercel.app/"</a>
 
-## Set up
+### API Base url
+https://rocky-reaches-94023.herokuapp.com/api
+<a href = "https://rocky-reaches-94023.herokuapp.com/api">https://rocky-reaches-94023.herokuapp.com/api</a>
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+-----
+### Summary
+The Dewey Classify App let's users become the librarian of their own library. Users can enter their books into the app and create a virtual bookshelf by classifying their books with a simplified Dewey Decimal Classification system. Users can choose how they want to classify their books and can then browse the bookshelf entries.
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init` (UNIX) or `rm .git -r -fo` then `git init`(Windows)
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+### Endpoints
 
-## Scripts
+`GET /api/categories`
+`GET /api/subcategories`
+`GET /api/bookshelf`
+`GET /api/books`
+`POST /api/books`
+`PATCH /api/books`
+`DELETE /api/categories`
 
-Start the application `npm start`
 
-Start nodemon for the application `npm run dev`
-
-Run the tests `npm test`
-
-To seed db 'psql -U dunder_mifflin -d blogful -f ./seeds/seed.blogful_articles.sql'
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
+### Tech Stack
+- Node.js
+- Express
+- Mocha
