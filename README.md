@@ -44,15 +44,6 @@ Description:  Get all books
 URL:    
 Method:    
 Data Example:  
-Success Response:  
-Error Response:  
-
-
-`POST /api/books`  
-Description:  
-URL:    
-Method:    
-Data Example:  
 ```
     {
         "id": 3,
@@ -64,6 +55,15 @@ Data Example:
         "subcategory_id": 15
     }
 ```
+Success Response:  
+Error Response:  
+
+
+`POST /api/books`  
+Description:  
+URL:    
+Method:    
+Data Example:  
 Success Response:  
 Error Response:    
 
