@@ -16,7 +16,7 @@ The Dewey Classify App let's users become the librarian of their own library. Us
 
 #### Categories
 `GET /api/categories`  
-Description:  
+Description: Gets categories for the accordion display.
 URL:    
 Method:    
 Data Example:  
@@ -24,7 +24,7 @@ Success Response:
 Error Response:  
 #### Subcategories
 `GET /api/subcategories`  
-Description:  
+Description:  Gets subcategories for the accordion display.
 URL:    
 Method:    
 Data Example:  
@@ -32,7 +32,7 @@ Success Response:
 Error Response:  
 #### Bookshelf  
 `GET /api/bookshelf`  
-Description:  
+Description:  Gets all books with a join on categories and subcategories to display category and subcatetory name.
 URL:    
 Method:    
 Data Example:  
@@ -40,7 +40,7 @@ Success Response:
 Error Response:  
 #### Books
 `GET /api/books`  
-Description:  
+Description:  Get all books
 URL:    
 Method:    
 Data Example:  
@@ -66,7 +66,7 @@ Success Response:
 Error Response:    
 
 
-`DELETE /api/categories`  
+`DELETE /api/books`  
 Description:  
 URL:    
 Method:    
