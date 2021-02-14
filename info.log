@@ -986,3 +986,6 @@
 {"message":"Book with id 10 deleted.","level":"info"}
 {"message":"Book with id 11 created.","level":"info"}
 {"message":"Book with id 11 deleted.","level":"info"}
+{"message":"Book with id 12 created.","level":"info"}
+{"message":"Book with id 13 created.","level":"info"}
+{"message":"Invalid title '' supplied","level":"error"}
