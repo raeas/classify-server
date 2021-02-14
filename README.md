@@ -3,10 +3,9 @@ This is the server for virtual bookshelf app where you can add and classify your
 
 -----
 ### Link to live app
-Live version of the client can be found here <a href = "https://classify-app.vercel.app/">https://classify-app.vercel.app/"</a>
+Live version of the client can be found here <a href = "https://classify-app.vercel.app/">https://classify-app.vercel.app/</a>
 
 ### API Base url
-https://rocky-reaches-94023.herokuapp.com/api
 <a href = "https://rocky-reaches-94023.herokuapp.com/api">https://rocky-reaches-94023.herokuapp.com/api</a>
 
 -----
