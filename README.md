@@ -46,6 +46,7 @@ Method:
 Data Example:  
 Success Response:  
 Error Response:  
+----
 `POST /api/books`  
 Description:  
 URL:    
@@ -53,6 +54,7 @@ Method:
 Data Example:  
 Success Response:  
 Error Response:    
+----
 `PATCH /api/books`  
 Description:  
 URL:    
@@ -60,6 +62,7 @@ Method:
 Data Example:  
 Success Response:  
 Error Response:    
+----
 `DELETE /api/categories`  
 Description:  
 URL:    
@@ -67,7 +70,7 @@ Method:
 Data Example:  
 Success Response:  
 Error Response:  
-
+----
 
 ### Tech Stack
 - Node.js
